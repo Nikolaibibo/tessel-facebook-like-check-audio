@@ -1,0 +1,30 @@
+{
+  "name": "tessel-facebook-like-check-audio",
+  "version": "1.0.0",
+  "description": "check the fb api with the help of a php file and plays soundfiles if the like count changes",
+  "main": "app.js",
+  "dependencies": {
+    "audio-vs1053b": "^0.1.91",
+    "request": "^2.51.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tessel run app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nikolaibibo/tessel-facebook-like-check-audio.git"
+  },
+  "keywords": [
+    "tessel",
+    "audio",
+    "facebook",
+    "api"
+  ],
+  "author": "Nikolai Bockholt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikolaibibo/tessel-facebook-like-check-audio/issues"
+  },
+  "homepage": "https://github.com/Nikolaibibo/tessel-facebook-like-check-audio"
+}
